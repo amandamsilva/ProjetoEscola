@@ -9,9 +9,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class NotaDAOImpl implements NotaDAO {
-	public final static String URL = "********";
-	public final static String USER = "*******";
-	public final static String PASS = "*******";
+	public final static String URL = "jdbc:mariadb://localhost:3307/notas";
+	public final static String USER = "root";
+	public final static String PASS = "8821@Edp";
 	private Connection con;
 	
 	public NotaDAOImpl() { 
